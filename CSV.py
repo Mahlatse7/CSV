@@ -3,6 +3,8 @@ import os
 
 def get_disk_info():
     disk_info = []
+
+    
     
     # Getting disk partitions information
     partitions = os.popen('df -h').readlines()
